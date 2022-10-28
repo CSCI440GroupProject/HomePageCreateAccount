@@ -58,7 +58,7 @@
 }
 
 .About-img img{
-    width: 30%;
+    width: 35%;
 }
 
 /* blue Section */
@@ -72,3 +72,123 @@
     width: 100%;
     right: 0px;
 }
+
+/* Create-Account Section */
+
+#Create-Account {
+    background-color: #2d2e3b;
+    position: absolute;
+    width: 100%;
+    top: 590px;
+    right: 0px;
+    height: 700px;
+    letter-spacing: 2px;
+}
+
+.Create-Account-Content{
+    font-family: "Figtree";
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+.Create-Account-Content h2{
+    color:#9bccff;
+    margin-left: 80px;
+}
+
+.Create-Account-Content form{
+    color: #ffffff;
+}
+
+.Create-Account-Content p{
+    color: #ffffff;
+    margin-left: 80px;
+}
+
+.Create-Account-Content a{
+    color: #9bccff;
+    text-decoration: none;
+}
+
+/* Standard styles field in form for the input section */
+input{
+    font-family: "Figtree";
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: none;
+    height: 25px;
+    width: 250px;
+}
+
+/* name input in form */
+#name{
+    width:125px;
+}
+
+/* email input in form */
+#email{
+    width: 275px;
+}
+
+/* Gender Field Option Section */
+
+#gender p{
+    font-family: "Figtree";
+}
+
+#gender input[type="radio"] {
+    display: none;
+}
+
+#gender span{
+    display: inline-block;
+    width: 175px;
+    height: 20px;
+    padding-top: 5px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: #2d2e3b;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#gender input[type="radio"]:checked + span {
+    background-color:#5bacff;
+    color:#ffffff;
+  }
+
+
+/* height input in form */
+#height{
+    width:310px;
+    text-align: center;
+}
+
+/* Create Account Button */
+
+button{
+    font-family: "Figtree";
+    font-weight: bold;
+    width: 150px;
+    height: 25px;
+    margin-left: 80px;
+    border-radius: 25px;
+    background-color: #5bacff;
+    border: 1px solid white;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffffff;
+    border: 1px solid #5bacff;
+    color: #5bacff;
+
+}
+
+
+
+
