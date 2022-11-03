@@ -29,7 +29,7 @@
         <section id="Create-Account">
           <div class = "Create-Account-Content">
             <h2>Create an account</h2>
-            <form action="" method="post">
+            <form method="post" action="CreateAccount.php">
               <label for="username">Username</label>
               <input id="username" name="username" type="text" required placeholder="Username">
               <br><br>
@@ -38,7 +38,7 @@
               <br><br>
               <h2>Tell us about you!</h2>
               <label for="name">name</label>
-              <input id=name name="fistname" type="text" required placeholder="first name">
+              <input id=name name="firstname" type="text" required placeholder="first name">
               <input id=name name="lastname" type="text" required placeholder="last name">
               <br><br>
               <label for="email">email</label>
@@ -56,9 +56,10 @@
               <label for="height">height (in)</label>
               <input id="height" name="height" required placeholder="enter height in inches" type="number" step="any">
               <br><br>
-              <button type="submit">Create Account</button>
+              <input type="submit" name="Submit" id="Submit" value="Submit">Create Account</input>
               <p>Already have an account?<br><a href="file:///C:/Users/19032/Documents/GroupProject/HomePageLogin/index.html">click here to Log in!</a></p>
             </form>
           </div>
         </section>
   </body>
+</html>
