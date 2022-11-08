@@ -24,7 +24,7 @@
             $age = $_POST['age'];
             $height = $_POST['height'];
 
-            $sql = "INSERT INTO `UserProfile` (`profileID`, `username`, `password`, `userWeight`, `fname`, `lname`, `email`, `gender`, `age`, `height`) VALUES (DEFAULT, '$username', '$password', '$userWeight', '$fname', '$lname', '$email', '$gender', '$age', '$height')";
+            $sql = "INSERT INTO `UserProfile` (`username`, `userPassword`, `userWeight`, `fname`, `lname`, `email`, `gender`, `age`, `height`) VALUES ('$username', '$password', '$userWeight', '$fname', '$lname', '$email', '$gender', '$age', '$height')";
 
             // insert in database 
             $rs = mysqli_query($mysqli_connection, $sql);
