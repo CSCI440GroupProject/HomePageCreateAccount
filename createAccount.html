@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./Resources/css/styles.css">
+    <link rel="stylesheet" href="./Resources/createAccount.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -17,7 +17,7 @@
             <h1>Welcome to our website for fitness evaluation and development!</h1>
             <p>Create an account to track your workouts! Record your workouts to analyze your improvement! We will assess your findings and compare them to the national average, as well as provide you with an overall strength score!</p>
             <div class="About-img">
-              <img src="file:///C:/Users/19032/Documents/GroupProject/WorkoutLog/Resources/images/aboutcontentlogo.png" alt="about us logo">
+              <img src="./Resources/aboutcontentlogo.png" alt="about us logo">
             </div>
           </div>
         </section>
@@ -29,7 +29,7 @@
         <section id="Create-Account">
           <div class = "Create-Account-Content">
             <h2>Create an account</h2>
-            <form action="" method="post">
+            <form method="post" action="createAccount.php">
               <label for="username">Username</label>
               <input id="username" name="username" type="text" required placeholder="Username">
               <br><br>
@@ -38,7 +38,7 @@
               <br><br>
               <h2>Tell us about you!</h2>
               <label for="name">name</label>
-              <input id=name name="fistname" type="text" required placeholder="first name">
+              <input id=name name="firstname" type="text" required placeholder="first name">
               <input id=name name="lastname" type="text" required placeholder="last name">
               <br><br>
               <label for="email">email</label>
@@ -56,9 +56,10 @@
               <label for="height">height (in)</label>
               <input id="height" name="height" required placeholder="enter height in inches" type="number" step="any">
               <br><br>
-              <button type="submit" name="Submit" id="Submit" value="Submit">Create Account</button>
-              <p>Already have an account?<br><a href="file:///C:/Users/19032/Documents/GroupProject/HomePageLogin/index.html">click here to Log in!</a></p>
+              <button type="submit">Create Account</button>
+              <p>Already have an account?<br><a href="http://csci440.com/HomePage.html">click here to Log in!</a></p>
             </form>
           </div>
         </section>
   </body>
+</html>
